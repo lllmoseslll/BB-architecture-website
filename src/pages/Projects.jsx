@@ -12,31 +12,31 @@ const Projects = () => {
          </div>
          <div className="grid grid-cols-3 grid-flow-row gap-8 max-md:grid-cols-2 max-sm:grid-cols-1 w-auto h-auto  mb-10 mx-auto p-10 ">
           <div className="h-[250px] w-[250px] flex flex-col justify-between">
-            <div className="h-[200px] bg-[url('./src/assets/DesertHotel.jpg')] bg-cover"></div>
+            <div className="h-[200px] bg-[url('/assets/DesertHotel.jpg')] bg-cover"></div>
             <div>
             <p className="text-white text-2xl">Desert hotel</p>
             </div>
           </div>
           <div className="h-[250px] w-[250px] flex flex-col justify-between">
-            <div className="h-[200px] bg-[url('./src/assets/hutHouse.jpg')] bg-cover"></div>
+            <div className="h-[200px] bg-[url('/assets/hutHouse.jpg')] bg-cover"></div>
             <div>
             <p className="text-white text-2xl">The Hut Mansion</p>
             </div>
           </div>
           <div className="h-[250px] w-[250px] flex flex-col justify-between">
-            <div className="h-[200px] bg-[url('./src/assets/woodsHouse.jpg')] bg-cover bg-center"></div>
+            <div className="h-[200px] bg-[url('/assets/woodsHouse.jpg')] bg-cover bg-center"></div>
             <div>
             <p className="text-white text-2xl">The Woods Mansion</p>
             </div>
           </div>
           <div className="h-[250px] w-[250px] flex flex-col justify-between">
-            <div className="h-[200px] bg-[url('./src/assets/grayHouse.jpg')] bg-cover bg-center"></div>
+            <div className="h-[200px] bg-[url('/assets/grayHouse.jpg')] bg-cover bg-center"></div>
             <div>
             <p className="text-white text-2xl">The Grey House</p>
             </div>
           </div>
           <div className="h-[250px] w-[250px] flex flex-col justify-between">
-            <div className="h-[200px] bg-[url('./src/assets/blueTower.jpg')] bg-cover bg-center"></div>
+            <div className="h-[200px] bg-[url('/assets/blueTower.jpg')] bg-cover bg-center"></div>
             <div>
             <p className="text-white text-2xl">The Blue Tower</p>
             </div>

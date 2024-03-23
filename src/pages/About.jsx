@@ -4,7 +4,7 @@ import Navbar from "../components/Navbar";
 
 const About = () => {
     return (
-      <div className=" w-full h-auto flex flex-col justify-between bg-[url('./src/assets/blueGlassHouse.jpg')] bg-cover bg-no-repeat bg-center absolute">
+      <div className=" w-full h-auto flex flex-col justify-between bg-[url('/assets/blueGlassHouse.jpg')] bg-cover bg-no-repeat bg-center absolute">
                 <div className="bg-[#00000066]">
 
           <Navbar />

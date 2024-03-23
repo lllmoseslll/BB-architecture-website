@@ -33,7 +33,7 @@ const Contact = () => {
             </div>
            
           </div>
-          <div className="w-[350px] h-[420px] md:w-[400px] md:h-[520px] lg:w-[460px] lg:h-[720px] bg-[url('./src/assets/workingOnthePhone.jpg')] bg-cover brightness-50 bg-center ">
+          <div className="w-[350px] h-[420px] md:w-[400px] md:h-[520px] lg:w-[460px] lg:h-[720px] bg-[url('/assets/workingOnthePhone.jpg')] bg-cover brightness-50 bg-center ">
             <div className=""></div>
           </div>
         </div>
