@@ -9,7 +9,7 @@ const Home = () => {
       <div className="h-auto bg-[#00000066]">
       <Navbar />
         <div className="mt-[200px] max-md:mt-[300px] mb-[100px] flex justify-start">
-          <div className=" w-[80%]  max-md:w-[90%]   pl-24">
+          <div className="md:ml-20 w-[80%]  max-md:w-[90%]   pl-24">
             <h1 className="my-6 text-[#ff8828] drop-shadow-2xl  font-bold text-3xl max-md:text-2xl p-2">Welcome to BB Architecture - Where Vision Meets Reality</h1>
             <p className="text-white text-2xl font-thin max-md:text-xl drop-shadow-2xl p-2">At BB Architecture, we believe in the transformative power of design. From concept to creation, we are dedicated to bringing your vision to life, ensuring every detail reflects your unique story and aspirations</p>
           </div>
