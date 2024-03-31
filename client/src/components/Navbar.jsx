@@ -47,6 +47,8 @@ const Navbar = () => {
       <li className="p-4 border-b border-gray-400 hover:cursor-pointer"><Link to="/team" active={path === "/team"}>Team</Link></li> 
       <li className="p-4 border-b border-gray-400 hover:cursor-pointer"><Link to="/contact" active={path === "/contact"}>Contact</Link></li>
       <li className="p-4 hover:cursor-pointer"><Link to="/blog" active={path === "/blog"}> Blog</Link></li>
+      <li className="p-4 hover:cursor-pointer"><Link to="/sign-in" active={path === "/sign-in"} >Sign in</Link> </li>
+
       </ul>
    </div>
    <Outlet />
