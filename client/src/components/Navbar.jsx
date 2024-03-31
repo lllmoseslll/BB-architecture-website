@@ -19,13 +19,16 @@ const Navbar = () => {
       </Link>
     </div>
     <ul className=" font-semibold max-lg:hidden flex pr-[30%]">
-      <li className="p-4 hover:cursor-pointer"><Link to="/home">Home</Link> </li>
-      <li className="p-4 hover:cursor-pointer"><Link to="/projects">Projects</Link> </li>
-      <li className="p-4 hover:cursor-pointer"><Link to="/about">About</Link></li>
-      <li className="p-4 hover:cursor-pointer"><Link to="/team">Team</Link> </li>
-      <li className="p-4 hover:cursor-pointer"><Link to="/contact">Contact</Link> </li>
-      <li className="p-4 hover:cursor-pointer"><Link to="/blog">Blog</Link> </li>
+      <li className="p-4 hover:cursor-pointer"><Link to="/home" active={path === "/"} >Home</Link> </li>
+      <li className="p-4 hover:cursor-pointer"><Link to="/projects" active={path === "/projects"} >Projects</Link> </li>
+      <li className="p-4 hover:cursor-pointer"><Link to="/about" active={path === "/about"} >About</Link></li>
+      <li className="p-4 hover:cursor-pointer"><Link to="/team" active={path === "/team"} >Team</Link> </li>
+      <li className="p-4 hover:cursor-pointer"><Link to="/contact" active={path === "/contact"} >Contact</Link> </li>
+      <li className="p-4 hover:cursor-pointer"><Link to="/blog" active={path === "/blog"} >Blog</Link> </li>
+      <li className="p-4 hover:cursor-pointer"><Link to="/sign-in" active={path === "/sign-in"} >Sign in</Link> </li>
+      
     </ul> 
+    
      <div className="hover:cursor-pointer lg:hidden" onClick={handleNav}>
       {!nav?<AiOutlineClose size={30}/>:<AiOutlineMenu size={30} />}
     
