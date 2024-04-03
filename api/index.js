@@ -20,8 +20,16 @@ mongoose.connect(process.env.MONGO).then(
     console.log(err);
 });
 
+app.use((err, req, res, next)=>{
+    const statusCode = err.statusCode || 500;
+    const message = err.message || "enteral server error";
+    res.status(statusCode).json({
+        sucees: false,
+        statusCode,
+        message,
+    });
 
-
+})
 
 app.use('/api/user', userRoute);
 app.use('/api/auth', authRoute);
