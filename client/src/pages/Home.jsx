@@ -5,7 +5,7 @@ import Navbar from "../components/Navbar";
 const Home = () => {
   return (
     
-    <div className=" w-full h-auto flex flex-col bg-[url('/assets/blueTower.jpg')] bg-cover bg-no-repeat bg-center absolute  ">
+    <div className=" w-full m-h-screen flex flex-col bg-[url('/assets/blueTower.jpg')] bg-cover bg-no-repeat bg-center absolute  ">
       <div className="h-auto bg-[#00000066]">
       <Navbar />
         <div className="mt-[200px] max-md:mb-[200px] mb-[100px] max-sm:flex max-sm:justify-center">

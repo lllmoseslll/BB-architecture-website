@@ -8,8 +8,8 @@ import Team from "./pages/Team";
 import Nopage from "./pages/Nopage";
 import Projects from "./pages/Projects";
 import SignIn from "./pages/SignIn";
-import SignOut from "./pages/SignOut";
 import Dashboard from "./pages/Dashboard";
+import SignUP from "./pages/SignUp";
 
 
 function App() {
@@ -25,7 +25,7 @@ function App() {
     <Route path="/contact" element={<Contact />} />
     <Route path="/team" element={<Team />} />
     <Route path="/sign-in" element={<SignIn />} />
-    <Route path="/sign-out" element={<SignOut />} />
+    <Route path="/sign-up" element={<SignUP />} />
     <Route path="/dashboard" element={<Dashboard />} />
     <Route path="*" element={<Nopage />} />
   </Routes>
